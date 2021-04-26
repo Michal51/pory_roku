@@ -1,0 +1,95 @@
+#container 
+{
+	width: 1100px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+	
+}
+#title 
+{
+	text-align: center;
+}
+#spring_name
+{
+	background-color: lightgreen;
+}
+#summer_name
+{
+	background-color: lightyellow;
+}
+#autumn_name
+{
+	background-color: orange;
+}
+#winter_name
+{
+	background-color: lightblue;
+}
+
+#spring_descr
+{
+	background-color: lightgreen;
+}
+#summer_descr
+{
+	background-color: lightyellow;
+}
+#autumn_descr
+{
+	background-color: orange;
+}
+#winter_descr
+{
+	background-color: lightblue;
+}
+
+.season
+{
+	width: 250px;
+	float:left;
+	padding: 5px;
+}
+
+img
+{
+	width: 250px;
+	height: 250px;
+	margin: 6px 5px 1px 5px;
+}
+
+.name 
+{
+	width: 250px;
+	height: auto;
+	padding: 5px;
+	text-align: center;
+	background-clip: content-box;
+}
+
+.descr
+{
+	width: 250px;
+	height: 60px;
+	padding: 5px;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	font-size: 14px;
+	background-clip: content-box;
+}
+
+@media only screen and (max-width:1099px)
+{
+	#title
+	{
+		text-align: left;
+	}
+	
+	.season
+	{
+		clear: both;
+	}
+	
+}
